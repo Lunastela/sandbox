@@ -1,0 +1,5 @@
+/home/me/Documents/sandbox/build/CMakeFiles/Sandbox.dir
+/home/me/Documents/sandbox/build/CMakeFiles/package.dir
+/home/me/Documents/sandbox/build/CMakeFiles/package_source.dir
+/home/me/Documents/sandbox/build/CMakeFiles/edit_cache.dir
+/home/me/Documents/sandbox/build/CMakeFiles/rebuild_cache.dir

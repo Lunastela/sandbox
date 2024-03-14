@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/me/Documents/sandbox/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/Sandbox.dir/main.cpp.o -c /home/me/Documents/sandbox/main.cpp",
+  "file": "/home/me/Documents/sandbox/main.cpp",
+  "output": "CMakeFiles/Sandbox.dir/main.cpp.o"
+}
+]
