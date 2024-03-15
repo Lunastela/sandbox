@@ -1,4 +1,6 @@
 #include "window.hpp"
+#include <iostream>
+#include <cmath>
 
 namespace Sandbox {
     Window::Window(int width, int height, std::string title) {
@@ -12,6 +14,7 @@ namespace Sandbox {
         glewExperimental = GL_TRUE; // Enable GLEW experimental features
         glewInit();
 
+        Init();
         while (!destroyWindow) {
             SDL_Event event;
             while (SDL_PollEvent(&event))
