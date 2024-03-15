@@ -1,12 +1,15 @@
 #pragma once
-
 #include <SDL2/SDL.h>
 
 #include <GL/glew.h>
 #include <string>
+#include "object.hpp"
 
 namespace Sandbox {
-    class Window {
+    /**
+     * Static windowing class
+    */
+    class Window : public Object {
         private:
             SDL_Window* windowPtr = nullptr;
 
@@ -15,13 +18,14 @@ namespace Sandbox {
 
             Window(int width, int height, std::string title);
 
-            void Init();
             void HandleEvent(SDL_Event event) {
                 if(event.type == SDL_QUIT)
                     destroyWindow = true;
             }
-            void Update();
-            void Draw();
+
+            void Init();
+            void Update(float dt);
+            void Render();
     };
 }
 
