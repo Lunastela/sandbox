@@ -1,7 +1,8 @@
 #pragma once
+
+#include <glad/gl.h>
 #include <SDL2/SDL.h>
 
-#include <GL/glew.h>
 #include <string>
 #include "object.hpp"
 
